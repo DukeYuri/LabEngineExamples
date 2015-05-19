@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.labengine.examples"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".games.Pong"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".games.SpaceBattle"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".games.Menu"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".primitives.DrawingLines"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".primitives.DrawingRect"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".primitives.DrawingCircle"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".primitives.DrawingSprites"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".primitives.DrawingText"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".action.AnimSprite"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".action.MovingBall"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".touch.MoveShoot"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".touch.TouchCreate"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".audio.PlaySound"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".audio.PlayMusic"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name=".physics.CollisonDetection"
+            android:label="@string/app_name" >
+        </activity>
+        
+    </application>
+
+</manifest>
